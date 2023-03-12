@@ -1,0 +1,238 @@
+<link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+<style>
+    .sidebar{
+        height:100%;
+        width:260px;
+        background-color:aliceblue;
+        top:5px;
+        bottom:0;
+        padding-top:0px;
+        float:left
+    }
+    .label{
+        font-size: 20px;
+        padding: 10px;
+        
+        /*display:-ms-flexbox*/
+    }
+    .item{
+        padding:5px;
+        border-left:ridge
+    
+    }
+    .profile{
+        font-size: 30px;
+      }
+      .bi-chevron-right,.bi-chevron-down{
+        float:right
+      }
+      .active{
+        background-color: blue;
+        color:white
+      }
+      .bi-download,.bi-book-fill{
+        float:left
+      }
+      .menu_label{
+        padding-left: 20px;
+      
+      }
+        
+    .box{
+        border-radius: 3px;
+        border:ridge;
+        border-color:blue;
+        padding:0px;
+        padding-left: 3px;
+        margin:5px;
+        font-size:18px
+
+    }
+    .bi-info-circle{
+        background-color:rgb(85, 0, 255);
+        color:white
+    }
+    .input-field {
+        width: 70%;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 3px;
+        margin-top:10px;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  
+    }  
+    .button {
+        padding:5px;
+        display: inline-block;
+        font-size: 16px;
+        text-align:right;
+        margin:4px 2px
+        }
+        
+    .button1{
+        padding:10px;
+        border:none;
+        background-color:white;
+        font-size: 20px;
+        }
+    .button2{
+        background-color:white;
+        border:ridge;
+        border-radius: 15px;
+        color:black;
+        float:right
+        }
+    .input-box{
+        border:ridge;
+        border-radius:15px;
+        height:140px;
+        width:98%;
+        margin:5px
+         }
+    .line{
+        border:ridge;
+        font-size: 17px;
+        border-color: none;
+        border-radius: 15px;
+        padding:5px;
+        height:40px;
+        background-color:rgb(210, 210, 210);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .main{
+        margin-left: 260px;
+        padding:0px 10px; 
+        height: 1000px; 
+        float:top
+      }
+      .right{
+        float:right;
+      
+      }
+      .top{
+        display:inline-block;
+      }
+      .btn-inline-primary{
+        background-color: white;
+        border-color: black;
+        color:black;
+        border:solid;
+        font-size: 15px;
+        padding:2px 30px;
+        margin:10px 4px;
+        
+      }  
+      .foot{
+        padding-top:50px;
+  
+      }
+    
+    
+</style>
+
+<div class="sidemenu">
+    <div class="sidebar">
+      <div class="profile">
+         <strong><span style="color:navyblue">Strong</span><span style="color:blue">dm</span>
+      </div>
+      <dl>
+        <dt class="label">Access<i class="bi bi-chevron-down"></i></dt>              
+          <dd class="item">Users</dd>
+          <dd class="item">Rules</dd>
+          <dd class="item">API & Admin Tokens</dd>
+          <dt class="label">Infrastructure<i class="bi bi-chevron-right"></i></dt>
+          <dt class="label">Network<i class="bi bi-chevron-right"></i></dt>
+         <dt class="label">Logs<i class="bi bi-chevron-down"></i></dt>
+         <dd class="item">Activities</dd>
+         <dd class="item active">Queries</dd>
+         <dd class="item">SSH</dd>
+         <dd class="item">RDP</dd>
+         <dd class="item">Kubernets</dd>
+         <dd class="item">Cloud</dd>
+         <dd class="item">Web</dd>
+
+          <dt class="label">Settings<i class="bi bi-chevron-right"></i></dt>
+          <dt class="label" style="border-bottom:ridge">Diagnostics</dt>
+          <dt class="label"><i class="bi bi-download"></i><span class="menu_label">Download&Install</span></>
+          </dt>
+          <dt class="label"><i class="bi bi-book-fill"></i><span class="menu_label">Documention</span></dt>
+          </dt>
+        </dl>
+        <div class="foot">
+          <span>CONTACT SUPPOURT</span>
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+              <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+            </svg>
+              Email suppourt</p>
+      </div>
+    </div>
+      
+
+<div class="main">
+    <h1 class="top">Queries</h1>
+
+    <div class="right">
+        <span class="top">Shipware</span>
+        <button type="button" class="btn btn-inline-primary btn-sm m-0 top ">praveen<span>&#8942;</span></button>
+      </div>
+
+<div class="box">
+    <p><i class="bi bi-info-circle"></i>&nbsp;Queries by high-volume accounts may be emitted.please use the CLI or API to audit these queries.<a href="#">See documentation</a></p>
+</div>
+<div class="inline-block">
+    <input class="input-field space" type="text" placeholder="search queries">
+    <span class="space"><strong>Filter by:</strong></span>
+<button type="button" style="background-color:lightgray;border-color:transparent"class="btn btn-green btn-lg m-5">Account&#8942;</button>
+<button type="button" style="background-color:lightgray;border-color:transparent"class="btn btn-green btn-lg m-5">Resouce&#8942;</button>
+<button type="button" style="background-color:lightgray;border-color:transparent"class="btn btn-green btn-lg m-5">Dates&#8942;</button>
+  </div>
+  <div class="input-box">
+    <button class="button1"><strong>misha</strong></button>
+
+        <button class="button button2" >less than a minute ago</button>
+        <button class="button button2" >GCP Report-Readonly</button>
+        <button class="button button2" >22 ms</button>
+        <button class="button button2" >741 rows</button>
+        <p class="line">SELECT * FROM fulfillment_orders where order_id IN(637536431,637556118,638151448,638153059,638153701,638153701,638204727,638209167)</p>
+        </div>
+        <div class="input-box">
+    <button class="button1"><strong>Sandeep Galipelli</strong></button>
+        <button class="button button2" >less than a minute ago</button>
+        <button class="button button2" >GCP Report-Readonly</button>
+        <button class="button button2" >0 ms</button>
+        <button class="button button2" >7 rows</button>
+        <p class="line">SELECT INDEX FROM 'shipware'.'fulfilment-warehouses'</p>
+
+        </div>
+        <div class="input-box">
+    <button class="button1"><strong>Sandeep Galipelli</strong></button>
+    <button class="button button2" >less than a minute ago</button>
+    <button class="button button2" >GCP Report-Readonly</button>
+    <button class="button button2" >0 ms</button>
+    <button class="button button2" >0 rows</button>
+        <p class="line">SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id=907</p>
+
+        </div>
+        <div class="input-box">
+    <button class="button1"><strong>Sandeep Galipelli</strong></button>
+    <button class="button button2" >less than a minute ago</button>
+    <button class="button button2" >GCP Report-Readonly</button>
+    <button class="button button2" >0 ms</button>
+    <button class="button button2" >7 rows</button>
+
+        <p class="line">SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id=907</p>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
